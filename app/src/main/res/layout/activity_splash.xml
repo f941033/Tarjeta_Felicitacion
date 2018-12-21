@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:orientation="vertical">
+    tools:context=".SplashActivity">
 
     <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
         android:id="@+id/circularFillableLoaders"
@@ -21,14 +20,14 @@
         android:layout_marginTop="100dp"/>
 
     <TextView
-        android:id="@+id/TextoCargando"
+        android:id="@+id/textoSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/circularFillableLoaders"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="@string/cargando"
-        android:textSize="60sp"
+        android:layout_marginTop="50dp"
+        android:text="@string/textosplash"
+        android:textSize="50sp"
         android:textStyle="bold"
         android:textColor="@color/morado"/>
 
