@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         Animation animacion = AnimationUtils.loadAnimation(this,R.anim.animacion);
         titulo.startAnimation(animacion);
 
+        Animation animacion2 = AnimationUtils.loadAnimation(this,R.anim.slideup);
+        TextView titulo2 = (TextView) findViewById(R.id.textView1);
+        TextView titulo3 = (TextView) findViewById(R.id.textView2);
+
+        titulo2.startAnimation(animacion2);
+        titulo3.startAnimation(animacion2);
+
         //MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.happy_birthday);
         //mediaPlayer.start();
 
